@@ -354,8 +354,6 @@ body {
 }
 
 .footer-padding {
-  padding-top: 60px;
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -521,6 +519,9 @@ body {
 .footer-columns {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-heading {
@@ -706,8 +707,6 @@ body {
 
 .footer-position-form {
   display: flex;
-  padding-top: 72px;
-  padding-bottom: 94px;
 }
 .footer-heading-form {
   color: var(--primary-color);
